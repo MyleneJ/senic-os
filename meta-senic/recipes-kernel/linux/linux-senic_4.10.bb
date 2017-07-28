@@ -9,8 +9,6 @@ inherit kernel
 
 require recipes-kernel/linux/linux-dtb.inc
 
-RDEPENDS_kernel-base=""
-
 KBRANCH = "senic/4.10"
 SRCREV = "43be15e4e16d6b2162a5b13e8633e23720ee9f5b"
 
