@@ -78,6 +78,7 @@ IMAGE_INSTALL = " \
   hub-configuration \
   e2fsprogs-resize2fs \
   parted \
+  u-boot-fw-utils \
 "
 
 # Custom kernel module to handle Button interrupts
