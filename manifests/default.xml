@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="oe" fetch="git://git.openembedded.org/" />
-	
+	<remote name="github" fetch="git://github.com/" />
+
 	<project path="oe" name="openembedded-core" remote="oe" revision="morty" />
 	<project path="oe/bitbake" name="bitbake" remote="oe" revision="1.32" />
 	<project name="meta-openembedded" remote="oe" revision="morty" />
+	<project path="meta-mender" name="mendersoftware/meta-mender" remote="github" revision="morty" />
+	<project path="meta-go" name="mem/oe-meta-go" remote="github" revision="master" />
 </manifest>
