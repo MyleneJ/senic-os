@@ -13,6 +13,9 @@ SRC_URI = "git://git@github.com/getsenic/senic-os-uboot.git;protocol=ssh;branch=
 	   file://0002-sunxi-common-Remove-variables-used-by-Mender.patch \
 	   "
 
+SRC_URI_remove = "file://0002-Integration-of-Mender-boot-code-into-U-Boot.patch"
+SRC_URI_append = " file://0001-Integration-of-Mender-boot-code-into-U-Boot.patch"
+
 SRCREV = "5233f173335a61b1e2b9120c55422a8d60ff7ffe"
 PV = "v2017.03+git${SRCPV}"
 S = "${WORKDIR}/git"
