@@ -28,6 +28,9 @@
 MACHINE = "senic-hub-beta"
 DISTRO = "senic-dev"
 
+# For Mender integration
+MENDER_ARTIFACT_NAME = "release-1"
+
 #
 # Where to place downloads
 #
